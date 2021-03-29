@@ -96,7 +96,7 @@ class ImagePreviewFullViewCell: UICollectionViewCell, UIScrollViewDelegate {
         scrollImg.flashScrollIndicators()
         
         scrollImg.minimumZoomScale = 1.0
-        scrollImg.maximumZoomScale = 4.0
+        scrollImg.maximumZoomScale = 5.0
         
         let doubleTapGest = UITapGestureRecognizer(target: self, action: #selector(handleDoubleTapScrollView(recognizer:)))
         doubleTapGest.numberOfTapsRequired = 2
